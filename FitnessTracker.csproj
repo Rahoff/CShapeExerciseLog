@@ -87,11 +87,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExerciseData.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ExerciseData_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>ExerciseData.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ExerciseModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
